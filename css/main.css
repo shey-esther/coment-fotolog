@@ -1,0 +1,119 @@
+body {
+  background-color: white;
+  color:black;
+}
+
+/*estilos css header encavezado*/
+header {
+ width: 100%;
+  z-index:1;
+  position: fixed;
+  background-color:  #696969;
+}
+header img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.circle img:hover{
+ 
+filter: grayscale(100%);
+ 
+-webkit-filter: grayscale(100%);
+ 
+transition:filter 0.4s;
+ 
+-webkit-transition:-webkit-filter 1s;
+}
+.circleImg {
+border-radius: 50%;
+filter: grayscale(100%);
+ 
+-webkit-filter: grayscale(100%);
+ 
+}
+
+/* secction contenido de imagenes */
+#bannerflog{
+  color: white;
+  background-color: #008B8B;
+  padding-top: 10%;
+}
+#contenido{
+  background-color: #008B8B;
+  padding-top: 5%;
+}
+#contenido img {
+  border: 4px solid white;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color:#f2dede;
+  margin-bottom: 30px;
+}
+
+#bannerflog img {
+  height: 100px;
+}
+h1, p{
+  color: rgba(0,0,0,.5);
+}
+h1{
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+textarea, input {
+    width: 100%;
+    border-radius: 0px;
+    border: 2px solid rgba(0,0,0,.5);
+    margin-bottom: 20px;
+}
+
+.posteo {
+  color: DeepPink;
+}
+.posteo strong{
+  display: block;
+}
+.posteo hr {
+  border: 1px solid #e483b8;
+}
+/* PARA CORAZON */
+.corazon {
+  font-size: 40px;
+  color: gray;
+  text-align: center;
+}
+.rojo {
+  color: red;
+}
+footer{
+  padding: 20px;
+  background-color:  #696969;
+}
+/*secction containercontac*/
+
+.boton{
+  padding-bottom: 5%;
+}
+#textSave {
+  text-align: left;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #008B8B;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#textSave h4 p{
+  color: black;
+  padding: 20px;
+}
+/* Estilos comentarios */
+
